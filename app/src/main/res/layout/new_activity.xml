@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+
+
+    tools:context="diakonidze.kartlos.task2_2.newactivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:scaleType="fitCenter"
+        android:src="@drawable/a"
+
+        android:longClickable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="marka"
+        android:id="@+id/textmarka"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="year"
+        android:id="@+id/textyear"
+        android:layout_below="@+id/textmarka"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="owner"
+        android:id="@+id/textowner"
+        android:layout_alignBottom="@+id/textmarka"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/cost_color"
+        android:id="@+id/textcost"
+        android:layout_alignTop="@+id/textyear"
+        android:layout_alignEnd="@+id/textowner" />
+
+</RelativeLayout>
