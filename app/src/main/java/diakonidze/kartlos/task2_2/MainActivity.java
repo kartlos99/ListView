@@ -18,6 +18,7 @@ import diakonidze.kartlos.task2_2.model.Cars;
 
 public class MainActivity extends ActionBarActivity {
 
+    // it's too old
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
